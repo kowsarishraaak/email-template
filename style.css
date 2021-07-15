@@ -119,7 +119,7 @@ footer {
 
 }
 
-@media  only screen and (max-width:425px) {
+@media  only screen and (max-width:688px) {
     .com-icon, .store{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
