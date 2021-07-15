@@ -61,9 +61,9 @@ body {
     font-size: 16px;
     font-weight: 600;
 }
-.job-link{
+/* .job-link{
     
-}
+} */
 
 .fa-chevron-right{
     color: rgba(128, 128, 128, 0.335);
@@ -106,7 +106,7 @@ footer {
     color: white;
     font-size: 14px;
     font-weight: 300;
-    margin-bottom: 25px: ;
+    margin-bottom: 25px ;
 }
 .com-icon, .store{
     display: flex;
