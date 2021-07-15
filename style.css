@@ -1,6 +1,6 @@
 body {
     width: 700px;
- margin: 0 auto;
+    margin: 0 auto;
     font-family: poppins;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -12,19 +12,32 @@ body {
 .info {
     background: yellow;
     display: flex;
-    justify-content: space-between;
-    padding: 0px 25px;
+    
+    text-align: center;
 }
 .contact{
+    padding: 10px;
+    flex: 50%;
+}
+.social{
+    padding: 10px;
+     flex: 50%;
+}
+
+
+.contact {
     padding-right: 10px;
 }
-.contact a{
-   text-decoration: none;
-   color: black;
-}
-.social i{
+
+.contact a {
+    text-decoration: none;
     color: black;
 }
+
+.social i {
+    color: black;
+}
+
 .job {
     display: flex;
     justify-content: center;
@@ -62,15 +75,17 @@ body {
     font-size: 16px;
     font-weight: 600;
 }
+
 /* .job-link{
     
 } */
 
-.fa-chevron-right{
+.fa-chevron-right {
     color: rgba(128, 128, 128, 0.335);
     font-size: 32px;
     text-align: right;
 }
+
 .see-all {
     text-align: center;
     margin-top: 40px;
@@ -107,30 +122,47 @@ footer {
     color: white;
     font-size: 14px;
     font-weight: 300;
-    margin-bottom: 25px ;
+    margin-bottom: 25px;
 }
-.com-icon, .store{
+
+.com-icon, .store {
     display: flex;
     justify-content: space-between;
-    
 }
-.appstore{ 
+
+.appstore {
     padding-left: 10px;
-
 }
 
-@media  only screen and (max-width:688px) {
-    .com-icon, .store{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+@media only screen and (max-width:688px) {
+    .com-icon, .store {
+        flex-direction: column;
     }
-        body {
-            width: 100%;
-            font-family: poppins;
-            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-        }
-        .header-image img{
-            width: 100%;
-        }
+    body {
+        width: 100%;
+        font-family: poppins;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .info{
+        flex-wrap: wrap;
+    }
+    .contact, .social{
     
+        flex: 100%;
+    }
+    
+
+    .header-image img {
+        width: 100%;
+    }
+
+    .job{
+        flex-wrap: wrap;
+        flex: 100%;
+    }
+
+    .com-icon, .store{
+        flex-wrap: wrap;
+        flex: 100%;
+    }
 }
