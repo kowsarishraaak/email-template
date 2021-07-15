@@ -127,11 +127,23 @@ footer {
 
 .com-icon, .store {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    
 }
-
+.store {
+    flex: 50%;
+    
+}
+.playstore{
+    
+}
 .appstore {
     padding-left: 10px;
+    
+}
+.ishraak{
+    flex: 50%;
+    text-align: right;
 }
 
 @media only screen and (max-width:688px) {
@@ -161,8 +173,21 @@ footer {
         flex: 100%;
     }
 
-    .com-icon, .store{
+    .com-icon{
         flex-wrap: wrap;
-        flex: 100%;
+        flex: 50%;
+       
+    }
+    .store{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .ishraak{
+        margin-top: 15px;
+        padding-bottom: 15px;
+    
+    }
+    .ishraak img{
+    width: 85%;
     }
 }
