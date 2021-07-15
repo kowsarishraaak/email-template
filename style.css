@@ -1,0 +1,119 @@
+body {
+    width: 700px;
+ margin: 0 auto;
+    font-family: poppins;
+}
+
+.email {
+    padding: 0px 25px;
+}
+
+.info {
+    background: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+.contact{
+    padding-right: 10px;
+}
+.contact a{
+   text-decoration: none;
+   color: black;
+}
+.social i{
+    color: black;
+}
+.job {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-details h2 {
+    background: rgba(0, 0, 0, 0.287);
+    padding: 25px;
+    text-align: center;
+}
+
+.logo {
+    margin-right: 50px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo img {
+    width: 75px;
+    padding: 25px;
+}
+
+.description ul li {
+    color: rgba(204, 204, 204, 0.089);
+}
+
+.deisg-name {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.com-name {
+    font-size: 16px;
+    font-weight: 600;
+}
+.job-link{
+    
+}
+
+.fa-chevron-right{
+    color: rgba(128, 128, 128, 0.335);
+    font-size: 32px;
+    text-align: right;
+}
+.see-all {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.see-all a {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    padding: 20px 30px;
+    background-color: yellow;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* --------------
+        footer
+-------------------- */
+
+footer {
+    background: Black;
+    margin-top: 30px;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.fab {
+    color: white;
+    padding-left: 10px;
+}
+
+.address {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 25px: ;
+}
+.com-icon, .store{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.appstore{ 
+    padding-left: 10px;
+
+}
