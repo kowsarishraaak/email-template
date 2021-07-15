@@ -118,3 +118,19 @@ footer {
     padding-left: 10px;
 
 }
+
+@media  only screen and (max-width:425px) {
+    .com-icon, .store{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+        body {
+            width: 100%;
+            font-family: poppins;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        .header-image img{
+            width: 100%;
+        }
+    
+}
