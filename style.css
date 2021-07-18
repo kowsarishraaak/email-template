@@ -10,7 +10,7 @@ body {
 }
 
 .info {
-    background: yellow;
+    background: #f5d91d;
     display: flex;
     
     text-align: center;
@@ -45,7 +45,7 @@ body {
 }
 
 .job-details h2 {
-    background: rgba(0, 0, 0, 0.287);
+    background: #eeee;
     padding: 25px;
     text-align: center;
 }
@@ -97,7 +97,7 @@ body {
     text-decoration: none;
     color: black;
     padding: 20px 30px;
-    background-color: yellow;
+    background-color: #f5d91d;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
